@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+.Badges__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background: url('../../images/stars.svg'), #1B1B25;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Centrado{
+  background: url('https://us.123rf.com/450wm/turr17/turr171612/turr17161200375/67749574-patr%C3%B3n-cl%C3%A1sico-sin-fisuras-con-contornos-negros-ornamento-oriental-tradicional-fondo-vintage-cl%C3%A1sico.jpg?ver=6');
+  background-color: #282c34;
+  color:white;
+  height: 300px;
+    width: 1000px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Badges__hero>.Badges__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Badges__container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.Badges_conf-logo {
+  margin-bottom: 2rem;
+}
+
+.Badges__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.textField{
+  height: 32px;
+    width: 200px;
+    border: 1px solid #e5e5e5;
+    padding: 0 32px 0 16px;
+  }
+    .textField:hover {
+      cursor: pointer;
+    }
+  
+    .btnBuscar{
+      height: 34px;
+      width: 32px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .barraBusqueda{
+    margin-left: 50em;
+    padding: 20px;
+    }
+  
+
+    * {
+        margin:0;
+        padding:0;
+        font:12pt Arial;
+    }
+    
+    
+    .field {
+      display:flex;
+      position:realtive;
+      margin-top: 1%;
+      margin-left:50em;
+      width:30%;
+ 
+      flex-direction:row;
+      box-shadow:
+      
+       1px 1px 0 rgb(22, 160, 148)
+       2px 2px 0 rgb(22, 160, 133),
+       3px 3px 0 rgb(22, 160, 133),
+       4px 4px 0 rgb(22, 160, 133),
+       5px 5px 0 rgb(22, 160, 133),
+       6px 6px 0 rgb(22, 160, 133),
+       7px 7px 0 rgb(22, 160, 133)
+      ;
+    }
+    
+    .field>input[type=text],
+    .field>button {
+      display:block;
+      font:1.2em 'Montserrat Alternates';
+    }
+    
+    .field>input[type=text] {
+      flex:1;
+      padding:0.2em;
+      border:0.2em solid rgb(26, 188, 156);
+    }
+    
+    .field>button {
+      padding:0.6em 0.8em;
+      background-color:rgb(26, 188, 156);
+      color:white;
+      border:none;
+    }
+    .home{
+      
+        
+        height:90%;
+        width: 100%;
+        background: url('https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        position: absolute;
+      
+      
+    }
+    .soli{
+      height:90%;
+      width: 100%;
+      background: url('https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      position: absolute;
+    }
